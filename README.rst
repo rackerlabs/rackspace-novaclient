@@ -1,0 +1,26 @@
+====================
+rackspace-novaclient
+====================
+
+
+Metapackage to install python-novaclient and Rackspace extensions
+
+
+Install
+=======
+
+::
+
+  pip install rackspace-novaclient
+
+
+Usage
+=====
+
+This metapackage will ensure that python-novaclient and these extensions
+are installed that are compatible with the Rackspace cloud:
+
+- rackspace-auth-openstack
+- rax_instance_backup_python_novaclient_ext
+- rax_backup_schedule_python_novaclient_ext
+- rax_services_python_novaclient_ext
