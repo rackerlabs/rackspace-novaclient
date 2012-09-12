@@ -15,22 +15,24 @@
 import setuptools
 
 
+novaclient_extensions = [
+    'rackspace-auth-openstack',				# RAX-KSKEY
+    'os_diskconfig_python_novaclient_ext',		# Disk_config
+    'rax_backup_schedule_python_novaclient_ext',	# Backup_schedule
+    'rax_networks_python_novaclient_ext',		# Rax_Networks
+]
+
+
 setuptools.setup(
     name='rackspace-novaclient',
-    version='1.0',
+    version='1.1',
     author='Rackspace',
     author_email='johannes.erdfelt@rackspace.com',
     description='Metapackage to install python-novaclient and Rackspace '
                 'extensions',
     license='Apache License, Version 2.0',
     url='https://github.com/rackspace/rackspace-novaclient',
-    install_requires=[
-        'python-novaclient',
-        'rackspace-auth-openstack',
-        'rax_instance_backup_python_novaclient_ext',
-        'rax_backup_schedule_python_novaclient_ext',
-        'rax_services_python_novaclient_ext',
-    ],
+    install_requires=['python-novaclient'] + novaclient_extensions,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
