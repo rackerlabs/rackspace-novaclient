@@ -16,10 +16,11 @@ import setuptools
 
 
 novaclient_extensions = [
-    'rackspace-auth-openstack',				# RAX-KSKEY
-    'os_diskconfig_python_novaclient_ext',		# Disk_config
-    'rax_backup_schedule_python_novaclient_ext',	# Backup_schedule
-    'rax_networks_python_novaclient_ext',		# Rax_Networks
+    'rackspace-auth-openstack',                         # RAX-KSKEY
+    'os_diskconfig_python_novaclient_ext',              # Disk_config
+    'rax_backup_schedule_python_novaclient_ext',        # Backup_schedule
+    'os_networksv2_python_novaclient_ext',              # Rax_Networks
+    'rax_default_network_flags_python_novaclient_ext'   # default network flags
 ]
 
 
