@@ -26,7 +26,7 @@ novaclient_extensions = [
 
 setuptools.setup(
     name='rackspace-novaclient',
-    version='1.1',
+    version='1.2',
     author='Rackspace',
     author_email='johannes.erdfelt@rackspace.com',
     description='Metapackage to install python-novaclient and Rackspace '
