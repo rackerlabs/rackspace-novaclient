@@ -21,6 +21,7 @@ This metapackage will ensure that python-novaclient and these extensions
 are installed that are compatible with the Rackspace cloud:
 
 - rackspace-auth-openstack
-- rax_instance_backup_python_novaclient_ext
+- os_diskconfig_python_novaclient_ext
 - rax_backup_schedule_python_novaclient_ext
-- rax_services_python_novaclient_ext
+- os_networksv2_python_novaclient_ext
+- rax_default_network_flags_python_novaclient_ext
