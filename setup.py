@@ -33,7 +33,7 @@ setuptools.setup(
     description='Metapackage to install python-novaclient and Rackspace '
                 'extensions',
     license='Apache License, Version 2.0',
-    url='https://github.com/rackspace/rackspace-novaclient',
+    url='https://github.com/rackerlabs/rackspace-novaclient',
     install_requires=['python-novaclient'] + novaclient_extensions,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
