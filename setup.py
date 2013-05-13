@@ -1,4 +1,4 @@
-#   Copyright 2012 Rackspace
+#   Copyright 2012-2013 Rackspace
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -18,7 +18,8 @@ import setuptools
 novaclient_extensions = [
     'rackspace-auth-openstack',                         # RAX-KSKEY
     'os_diskconfig_python_novaclient_ext',              # Disk_config
-    'rax_backup_schedule_python_novaclient_ext',        # Backup_schedule
+    'rax_scheduled_images_python_novaclient_ext',       # RAX-SI (replaces
+                                                        #   backup_schedule)
     'os_networksv2_python_novaclient_ext',              # Rax_Networks
     'rax_default_network_flags_python_novaclient_ext'   # default network flags
 ]
@@ -26,13 +27,13 @@ novaclient_extensions = [
 
 setuptools.setup(
     name='rackspace-novaclient',
-    version='1.2',
+    version='1.3',
     author='Rackspace',
     author_email='johannes.erdfelt@rackspace.com',
     description='Metapackage to install python-novaclient and Rackspace '
                 'extensions',
     license='Apache License, Version 2.0',
-    url='https://github.com/rackspace/rackspace-novaclient',
+    url='https://github.com/rackerlabs/rackspace-novaclient',
     install_requires=['python-novaclient'] + novaclient_extensions,
     classifiers=[
         "Development Status :: 5 - Production/Stable",

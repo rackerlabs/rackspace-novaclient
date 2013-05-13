@@ -22,6 +22,6 @@ are installed that are compatible with the Rackspace cloud:
 
 - rackspace-auth-openstack
 - os_diskconfig_python_novaclient_ext
-- rax_backup_schedule_python_novaclient_ext
+- rax_scheduled_images_python_novaclient_ext
 - os_networksv2_python_novaclient_ext
 - rax_default_network_flags_python_novaclient_ext
