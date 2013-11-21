@@ -24,4 +24,5 @@ are installed that are compatible with the Rackspace cloud:
 - os_diskconfig_python_novaclient_ext
 - rax_scheduled_images_python_novaclient_ext
 - os_networksv2_python_novaclient_ext
+- os_virtual_interfacesv2_python_novaclient_ext
 - rax_default_network_flags_python_novaclient_ext

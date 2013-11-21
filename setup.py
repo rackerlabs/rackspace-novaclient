@@ -21,13 +21,14 @@ novaclient_extensions = [
     'rax_scheduled_images_python_novaclient_ext',       # RAX-SI (replaces
                                                         #   backup_schedule)
     'os_networksv2_python_novaclient_ext',              # Rax_Networks
+    'os_virtual_interfacesv2_python_novaclient_ext',    # Virtual interfaces
     'rax_default_network_flags_python_novaclient_ext'   # default network flags
 ]
 
 
 setuptools.setup(
     name='rackspace-novaclient',
-    version='1.3',
+    version='1.4',
     author='Rackspace',
     author_email='johannes.erdfelt@rackspace.com',
     description='Metapackage to install python-novaclient and Rackspace '
