@@ -22,7 +22,8 @@ novaclient_extensions = [
                                                         #   backup_schedule)
     'os_networksv2_python_novaclient_ext',              # Rax_Networks
     'os_virtual_interfacesv2_python_novaclient_ext',    # Virtual interfaces
-    'rax_default_network_flags_python_novaclient_ext'   # default network flags
+    'rax_default_network_flags_python_novaclient_ext',  # default network flags
+    'ip_associations_python_novaclient_ext',            # ip associations
 ]
 
 
