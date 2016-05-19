@@ -20,16 +20,17 @@ novaclient_extensions = [
     'os_diskconfig_python_novaclient_ext',              # Disk_config
     'rax_scheduled_images_python_novaclient_ext',       # RAX-SI (replaces
                                                         #   backup_schedule)
+
     'os_networksv2_python_novaclient_ext',              # Rax_Networks
-    'os_virtual_interfacesv2_python_novaclient_ext',    # Virtual interfaces
+    # 'os_virtual_interfacesv2_python_novaclient_ext',    # Virtual interfaces
     'rax_default_network_flags_python_novaclient_ext',  # default network flags
-    # 'ip_associations_python_novaclient_ext',            # ip associations
+    'ip_associations_python_novaclient_ext',            # ip associations
 ]
 
 
 setuptools.setup(
     name='rackspace-novaclient',
-    version='1.7',
+    version='2.0',
     author='Rackspace',
     author_email='johannes.erdfelt@rackspace.com',
     description='Metapackage to install python-novaclient and Rackspace '
@@ -37,7 +38,7 @@ setuptools.setup(
     license='Apache License, Version 2.0',
     url='https://github.com/rackerlabs/rackspace-novaclient',
     install_requires=[
-        'python-novaclient>=3'
+        'python-novaclient'
     ] + novaclient_extensions,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
