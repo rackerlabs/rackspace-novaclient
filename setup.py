@@ -29,7 +29,7 @@ novaclient_extensions = [
 
 setuptools.setup(
     name='rackspace-novaclient',
-    version='1.6',
+    version='1.7',
     author='Rackspace',
     author_email='johannes.erdfelt@rackspace.com',
     description='Metapackage to install python-novaclient and Rackspace '
@@ -37,7 +37,7 @@ setuptools.setup(
     license='Apache License, Version 2.0',
     url='https://github.com/rackerlabs/rackspace-novaclient',
     install_requires=[
-        'python-novaclient>=2.35.0,<3'
+        'python-novaclient>=3'
     ] + novaclient_extensions,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
